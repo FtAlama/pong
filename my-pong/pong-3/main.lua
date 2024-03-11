@@ -44,7 +44,7 @@ function love.update(dt)
 end
 
 function love.keypressed(key)
-    if key == 'espace' then
+    if key == 'escape' then
         love.event.quit()
     end
 end
